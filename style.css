@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    font-family: Arial, sans-serif;
+    color :#333;
+    background-image: url(img/background.png);
+    margin:0;
+   
+    
+}
+h1,#logo{
+    font-family: 'Courgette', cursive;
+    color :#C55394
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    
+    font-family: 'Courgette', cursive;
+    color :#EB43A3
+}
+h3{
+    font-family: 'Courgette', cursive;
+    color :#C55394
+}
+
+p{
+    font-family: Arial, sans-serif;
+    color :#333
+
+}
+/*************NAVBAR*************/
+nav{
+    overflow : hidden;
+    background-color: #C55394;    
+    width: 100%;
+
+}
+header li{
+    float: left;
+   list-style:none ;
+  
+  
+
+}
+header li a{
+    text-decoration: none;
+    text-align: center;
+    color :#FFF;
+}
+.menu{
+    overflow: hidden;
+    display: inline-block;
+    text-align: right;
+
+} 
+footer{
+    overflow : hidden;
+    background-color: #C55394;
+    color :#FFF;
+    font-size: xx-small;
+    padding:10px 0px;
+    
+
+}
+
+
+ .copyright{
+     float: right;
+     font-size:small;
+     padding-left:100px;
+     padding-right:10px ;
+ }    
+ #logo{
+    padding-left: 10px;
+    padding-right: 90px;
+    font-size: 20px;
+}
+ 
+
+ .principe{
+    padding-left: 500px;
+    padding-right: 28px;
+    background-position: center;
+ }
+ .licorne{
+    padding-left: 60px;
+    padding-right: 14px;
+ }
+ .trouver{
+    padding-left: 510px;
+    padding-right:5px;
+    
+ }
+
+
+
+.rainbow{
+    background-image:  url(img/rainbow.png);
+    background-position: center;
+    padding: 160px 160px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    
+    background-repeat: no-repeat;
+}
+ .bouton{
+    background-color: #C55394;
+    color: #FFF;
+    border-radius: 5px;
+ 
+    
+ }
+ .cadre{
+     margin-top: 0px;
+     width: 60%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 5%;
+     box-shadow: 0 0 10px #333;
+     background-color: #FFF;
+     border-radius: 10px;
+
+ }
+
+
+ .unicorn{
+
+    display: block;
+    justify-content: space-between;
+
+ } 
+
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    /* flex-flow: column; */
+    padding: 0px;
+    width: auto;
+    margin: auto;
+} 
+
+ img {
+    width: 200px;
+    height: auto;
+    
+} 
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+.textIntro{
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+#unicorn
+{
+    width: 600px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.map{
+    display: flex;
+    padding-bottom: 50px;
+}
+.adresse{
+    padding-left: 20px;
+}
+ .mail_bar{
+    width: 100px;
+    height: 10px;
+} 
